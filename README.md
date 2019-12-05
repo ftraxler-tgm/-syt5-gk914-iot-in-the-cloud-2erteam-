@@ -7,6 +7,12 @@ Die detaillierte [Aufgabenstellung](TASK.md) beschreibt die notwendigen Schritte
 
 [Link](https://www.overleaf.com/read/tskpsrxqbmhb) zum Theorieprotokoll
 
+## Participants
+
+* Fabian Traxler
+* Karim Omar
+* Sam Hediyehloo
+
 ## Tasks
 
 * Grafana in der Cloud 
@@ -23,5 +29,6 @@ Die detaillierte [Aufgabenstellung](TASK.md) beschreibt die notwendigen Schritte
  
 
 ## Implementierung
+
 
 ## Quellen
