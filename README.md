@@ -19,12 +19,11 @@ Die detaillierte [Aufgabenstellung](TASK.md) beschreibt die notwendigen Schritte
 * InfluxDB in der CLoud
 * Raspberry
   * Konfigurieren
-  * Sensor anschließen
-    * Temparatur 
-    * Humidity
+  * Sensoren
+    * Temparature DHT11
+    * Pressure BMP280
     * Nice to have
-      * Luftdrucksensor
-      * Windgeschwindigkeit
+      * Windgeschwindigkeit (evtl. einen basteln)
   * Skript schreiben
  
 
