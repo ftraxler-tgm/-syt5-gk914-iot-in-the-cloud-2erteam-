@@ -5,13 +5,15 @@ Die detaillierte [Aufgabenstellung](TASK.md) beschreibt die notwendigen Schritte
 
 ## Recherche
 
+[Link](https://www.overleaf.com/read/tskpsrxqbmhb) zum Theorieprotokoll
+
 ## Tasks
 
 * Grafana in der Cloud 
 * InfluxDB in der CLoud
 * Raspberry
   * Konfigurieren
-  * Sensor anschließen (Temparatur und Humidity)
+  * Sensor anschließen
     * Temparatur 
     * Humidity
     * Nice to have
