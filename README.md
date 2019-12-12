@@ -46,4 +46,14 @@ Jedoch muss noch der private Key mitgegeben werden. Unter Connection/SSH/Auth **
 
 ![putty](putty.PNG)
 
+### Installation von Influxdb
+
+```bash
+	echo "deb https://repos.influxdata.com/ubuntu bionic stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+	
+	sudo curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
+	
+	sudo apt-get install -y influxdb
+```
 ## Quellen
+* [Influxdb](https://computingforgeeks.com/install-influxdb-on-ubuntu-18-04-and-debian-9/)
