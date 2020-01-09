@@ -61,8 +61,31 @@ Die InfluxDB Shell wird mit folgendem Command geöffnet
 ```shell
 	influx -precision rfc3339
 ```
+#### Installation von Grafana
+
+```shell
+	sudo apt-get install -y apt-transport-https
+	
+	sudo apt-get install -y software-properties-common wget #möglicherweise notwendig#
+	
+	wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
+	
+	sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+	
+	sudo add-apt-repository "deb https://packages.grafana.com/oss/deb beta main"
+	
+	sudo apt-get install grafana
+```
+Anschließend muss Grafana auch gestartet werden
+
+```shell
+	sudo systemctl daemon-reload
+	sudo systemctl start grafana-server
+	sudo systemctl enable grafana-server.service
+```
 
 ## Quellen
 * [Influxdb](https://computingforgeeks.com/install-influxdb-on-ubuntu-18-04-and-debian-9/)
+* [Grafana](https://grafana.com/docs/grafana/latest/installation/debian/)
 
  
