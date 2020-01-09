@@ -44,7 +44,7 @@ Eine ssh Session soll erstellt werden mit dem hostname
 
 Jedoch muss noch der private Key mitgegeben werden. Unter Connection/SSH/Auth **Browse** drücken und den private Key auswählen.
 
-![putty](putty.PNG)
+![putty](img/putty.PNG)
 
 ### Installation von Influxdb
 
@@ -54,6 +54,15 @@ Jedoch muss noch der private Key mitgegeben werden. Unter Connection/SSH/Auth **
 	sudo curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
 	
 	sudo apt-get install -y influxdb
+	sudo apt install influxdb-client
 ```
+Die InfluxDB Shell wird mit folgendem Command geöffnet
+
+```shell
+	influx -precision rfc3339
+```
+
 ## Quellen
 * [Influxdb](https://computingforgeeks.com/install-influxdb-on-ubuntu-18-04-and-debian-9/)
+
+ 
