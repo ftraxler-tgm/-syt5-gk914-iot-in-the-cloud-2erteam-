@@ -2,7 +2,7 @@ import time
 from influxdb import InfluxDBClient
 import random
 import smbus
-
+import Adafruit_DHT
 
 
 
@@ -27,16 +27,14 @@ def readLight(addr=DEVICE):
      return convertToNumber(data)
 
 
-
 def main():
 
   client = InfluxDBClient(host='35.159.21.204', port=8086)
   client.switch_database('sensordaten')
 
   while True:
-    humidity = random.uniform(0, 40)
-    temperature = random.uniform(0, 30)
-    light = format(readLight(),'2f')
+    humidity, temperature = Adafruit_DHT.read_retry(11,2)
+    light = readLight()
     print("Humidity: "+str(humidity))
     print("Temperature: "+str(temperature))
     print("Light: "+str(light))
@@ -72,3 +70,5 @@ def main():
     print("Data written!")
     time.sleep(3)
 
+if __name__=="__main__":
+  main()
