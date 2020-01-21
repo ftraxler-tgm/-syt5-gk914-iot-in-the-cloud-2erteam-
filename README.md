@@ -21,7 +21,7 @@ Die detaillierte [Aufgabenstellung](TASK.md) beschreibt die notwendigen Schritte
   * Konfigurieren
   * Sensoren
     * Temparature DHT11
-    * Pressure BMP280
+    * Lichtsensor BH1750
     * Nice to have
       * Windgeschwindigkeit (evtl. einen basteln)
   * Skript schreiben
@@ -29,7 +29,6 @@ Die detaillierte [Aufgabenstellung](TASK.md) beschreibt die notwendigen Schritte
 
 ## Implementierung
 ### Erstellen einer Linux Instanz
-as
 ### Verbindung mit der Amazon AWS Linux Instanz (Windows)
 #### Konvertieren des privaten Schlüssels
 Man benötigt die ```.pem``` Datei, die beim Erstellen der Linux Instanz auch erstellt wird. In **puttygen** muss nun eine ```.ppk``` Datei erstellt werden, die für die Verbindung benötigt wird. 
@@ -114,5 +113,7 @@ Die Grafanaschnittstelle befindet sich [Hier](http://ec2-35-159-21-204.eu-centra
 ## Quellen
 * [Influxdb](https://computingforgeeks.com/install-influxdb-on-ubuntu-18-04-and-debian-9/)
 * [Grafana](https://grafana.com/docs/grafana/latest/installation/debian/)
+* [Using the BH1750FVI I2C Digital Light Sensor](https://www.raspberrypi-spy.co.uk/2015/03/bh1750fvi-i2c-digital-light-intensity-sensor/)
+* [DHT11 Temperatur](http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/)
 
  
