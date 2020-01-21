@@ -101,6 +101,14 @@ Hier sind die wichtigsten Daten
 Nachdem man die Daten eingegeben hat, kann man unten auf **Save and Test** drücken. 
 ![work](img/working.PNG)
 Wenn diese Erfolgsmeldung erscheint, dann ist die Verbindung zur Datenbank erfolgt.
+
+#### User Read
+Für Grafana wurde ein User erstellt, der nur Read rechte hat. Wenn man unsere Datenvisualisierung sehen möchte, sind das folgende Daten:
+* User: **read**
+* Passwort: **read**
+Die Grafanaschnittstelle befindet sich [Hier](http://ec2-35-159-21-204.eu-central-1.compute.amazonaws.com:3000)
+
+![grafana](img/grafana.PNG)
 ## Quellen
 * [Influxdb](https://computingforgeeks.com/install-influxdb-on-ubuntu-18-04-and-debian-9/)
 * [Grafana](https://grafana.com/docs/grafana/latest/installation/debian/)
