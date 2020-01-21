@@ -87,13 +87,15 @@ Anschließend muss Grafana auch gestartet werden
 #### Login
 Unser Grafana-Server wird über
 
-		http://ec2-35-159-21-204.eu-central-1.compute.amazonaws.com:3000
+http://ec2-35-159-21-204.eu-central-1.compute.amazonaws.com:3000
+
 erreichbar sein. Das Default-Login ist admin admin. Bei der 1. Anmeldung wird man aufgefordert, sein Passwort zu ändern. Nachdem man ein neues Passwort definiert hat, muss man eine Data Source hinzufügen.
 
 #### Data Source hinzufügen
 ![addData](img/addData.PNG)
 Hier einfach auf InfluxDB klicken.
 ![influx](img/influxgraf.PNG)
+
 Hier sind die wichtigsten Daten
 * Server URL
 * Database Name
