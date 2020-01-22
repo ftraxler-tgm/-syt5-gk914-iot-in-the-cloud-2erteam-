@@ -115,5 +115,6 @@ Die Grafanaschnittstelle befindet sich [Hier](http://ec2-35-159-21-204.eu-centra
 * [Grafana](https://grafana.com/docs/grafana/latest/installation/debian/)
 * [Using the BH1750FVI I2C Digital Light Sensor](https://www.raspberrypi-spy.co.uk/2015/03/bh1750fvi-i2c-digital-light-intensity-sensor/)
 * [DHT11 Temperatur](http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/)
+* [Setup DHT11](https://tutorials-raspberrypi.de/raspberry-pi-luftfeuchtigkeit-temperatur-messen-dht11-dht22/)
 
  
